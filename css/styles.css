@@ -94,7 +94,7 @@ body {
 
 .order-button:hover,
 .order-button:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 .title-benefits {
@@ -127,7 +127,7 @@ body {
   color: #2e2f42;
 }
 
-.menu-team:nth-child(1) {
+.menu-team:first-child {
   background-color: #ffffff;
 }
 
