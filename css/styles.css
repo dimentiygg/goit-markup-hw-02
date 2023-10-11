@@ -13,26 +13,30 @@ button {
   cursor: pointer;
 }
 
+.body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
 .logo-span {
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #4d5ae5;
+  color: #2e2f42;
 }
-main {
-  font-family: 'Roboto', sans-serif;
-}
+
 .logo {
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .menu .link {
@@ -42,21 +46,34 @@ main {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.menu .link:hover,
+.menu .link:focus {
+  color: #404bbf;
+}
 
-.address {
+.page-address {
   text-decoration: none;
   font-size: 16px;
+  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-h1 {
+.page-address:hover,
+.page-address:focus {
+  color: #404bbf;
+}
+
+.sollution {
+  background-color: #2e2f42;
+}
+.main-title {
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
-  background-color: #2e2f42;
   color: white;
 }
 
@@ -67,6 +84,11 @@ h1 {
   letter-spacing: 0.04em;
   color: white;
   background-color: #4d5ae5;
+}
+
+.order-button:hover,
+.order-button:focus {
+  color: #404bbf;
 }
 
 .title-benefits {
@@ -84,13 +106,23 @@ h1 {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+.staff {
+  background-color: #f4f4fd;
+}
+
 .title-team {
   font-size: 36px;
   font-weight: 700;
+  text-align: center;
   text-transform: capitalize;
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.mark-guerrero {
+  background-color: #ffffff;
 }
 
 .title-workers {
@@ -112,6 +144,7 @@ h1 {
 .title-portfolio {
   font-size: 36px;
   font-weight: 700;
+  text-align: center;
   text-transform: capitalize;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -132,4 +165,16 @@ h1 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.page-footer {
+  background-color: #2e2f42;
+}
+
+.footer-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
