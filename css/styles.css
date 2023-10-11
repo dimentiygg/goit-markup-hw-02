@@ -171,6 +171,10 @@ button {
   background-color: #2e2f42;
 }
 
+.footer-logo-span {
+  color: #f4f4fd;
+}
+
 .footer-text {
   font-size: 16px;
   font-weight: 400;
