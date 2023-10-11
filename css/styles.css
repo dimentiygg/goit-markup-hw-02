@@ -6,7 +6,9 @@ li {
 }
 
 .logo,
-.logo-span {
+.logo-span,
+.footer-logo,
+.footer-logo-span {
   text-decoration: none;
 }
 button {
